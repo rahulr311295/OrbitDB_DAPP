@@ -1,0 +1,31 @@
+{
+  "name": "orbitdb_fileupload_dapp",
+  "version": "1.0.0",
+  "description": "OrbitDB DAPP",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulr311295/OrbitDB_DAPP.git"
+  },
+  "keywords": [
+    "DemoApp"
+  ],
+  "author": "Rahul R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulr311295/OrbitDB_DAPP/issues"
+  },
+  "homepage": "https://github.com/rahulr311295/OrbitDB_DAPP#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "ipfs": "^0.34.4",
+    "ipfs-api": "^26.1.2",
+    "multer": "^1.4.1",
+    "nodemon": "^1.18.9",
+    "orbit-db": "^0.19.9"
+  }
+}

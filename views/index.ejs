@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title>DAPP</title>
+    <style>
+    img {
+  border-radius: 8px;
+  height:250px;
+  width: 200px;
+}
+</style>
+  </head>
+  <body>
+    <h1 align=center>OrbitDB FileUpload</h1>
+<div class="d-flex justify-content-center">
+    <form action="/" enctype="multipart/form-data" method="post">
+  <div class="form-group">
+    <input type="file" name="orbit_image">
+    <input class="btn btn-primary" type="submit" value="Upload" id="orbit_image">
+  </div>
+</form>
+</div>
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>IPFS Hash </strong> <%= data%>;
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="d-flex justify-content-center">
+<form class="form-inline">
+  <div class="form-group">
+    <input type="text" class="form-control" id="hash" placeholder="Orbit Hash">
+  </div>
+  <button type="submit" class="btn btn-primary">Query Database</button>
+</form>
+</div>
+<div class="d-flex justify-content-center">
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h6> <%= data%>;</h6>
+    <img class="rounded mx-auto d-block" src="https://vignette.wikia.nocookie.net/rickandmorty/images/a/a6/Rick_Sanchez.png">
+    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+  </div>
+</div>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
